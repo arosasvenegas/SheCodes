@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather APP</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <section class="containerWeatherApp">
+      <h1 class="weatherTitle">
+        The Weather
+      </h1>
+      <button class="location">Current Location </button>
+      <form id="searchForm">
+        <input
+        type="text"
+        name="search"
+        id="searchInput"
+        class="searchBar"
+        placeholder="City ..."
+        />
+        <input type="submit" value="Search" class="btnSubmit"/>
+      </form>
+      
+      <h2 class="weatherInMoment" id="temperature">18</h2><span class="units"><a href="#" id="celsius">°C </a> | <a href="#" id="fahrenheit"> °F</a> </span>
+      <p class="imgWeather">🌦️</p>
+
+      <div class="infoWeatherDay">
+        <p class="city" id="city">Santiago</p>
+        <p class="today" id="today">Today</p>
+        <p class="max">Max. 22°C</p>
+        <p class="min">Min. 12°C</p>
+      </div>
+      <section class="weatherWeek">
+        <div class="day1">
+          <p>Sunday</p>
+          <p>19°C</p>
+        </div>
+        <div class="day2">
+          <p>Monday</p>
+          <p>21°C</p>
+        </div>
+        <div class="day3">
+          <p>Tuesday</p>
+          <p>15°C</p>
+        </div>
+        <div class="day4">
+          <p>Wednesday</p>
+          <p>18°C</p>
+        </div>
+      </section>
+    </section>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

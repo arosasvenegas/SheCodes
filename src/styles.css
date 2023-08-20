@@ -1,0 +1,67 @@
+.containerWeatherApp {
+    background-color: #cfcfcf;
+    width: 550px;
+    display: block;
+    margin: 0 auto;
+  }
+  .weatherTitle {
+    color: #5a6275;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+  }
+  .searchBar {
+    position: relative;
+    left: 15px;
+    width: 400px;
+    height: 28px;
+  }
+  .btnSubmit{
+    position: relative;
+    left: 35px;
+    height: 35px;
+    width: 85px;
+  }
+  .weatherInMoment {
+    position: relative;
+    left: 90px;
+    color: #5a6275;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 45px;
+  }
+  .imgWeather {
+    position: relative;
+    left: 110px;
+    font-size: 45px;
+    padding: 0;
+    margin: 0;
+  }
+  .infoWeatherDay {
+    position: relative;
+    left: 300px;
+    color: #5a6275;
+    text-align: center;
+    bottom: 145px;
+    background: white;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+  }
+  .city {
+    font-size: 30px;
+  }
+  .weatherWeek {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #5a6275;
+    font-size: 20px;
+  }
+  .location{
+    display: block;
+    margin: 0 auto;
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+  }
