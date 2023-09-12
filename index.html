@@ -9,30 +9,35 @@
 
   <body>
     <section class="containerWeatherApp">
-      <h1 class="weatherTitle">
-        The Weather
-      </h1>
-      <button class="location">Current Location </button>
+      
+      
       <form id="searchForm">
         <input
         type="text"
         name="search"
         id="searchInput"
         class="searchBar"
-        placeholder="City ..."
+        placeholder="Weather"
         />
-        <input type="submit" value="Search" class="btnSubmit"/>
+        <button class="btnSubmit" height="90" width="480" alt="">🔍</button>
       </form>
       
-      <h2 class="weatherInMoment" id="temperature">18</h2><span class="units"><a href="#" id="celsius">°C </a> | <a href="#" id="fahrenheit"> °F</a> </span>
-      <p class="imgWeather">🌦️</p>
-
+      <!--<button class="location">Current Location </button>-->
+    <section class="TheWeather">
+      <div class="weatherInMoment">
+        <p class="imgWeather">🌦️</p>
+        <h2 class="TextWeather">Lluvioso</h2>
+        <p class="today" id="today">Today</p>
+        
+          
+      </div>  
       <div class="infoWeatherDay">
         <p class="city" id="city">Santiago</p>
-        <p class="today" id="today">Today</p>
+        <h2 class="temperatureAtMoment" id="temperature">18 <span class="units"><a href="#" id="celsius">°C </a> | <a href="#" id="fahrenheit"> °F</a> </span></h2>
         <p class="max">Max. 22°C</p>
         <p class="min">Min. 12°C</p>
       </div>
+    </section>
       <section class="weatherWeek">
         <div class="day1">
           <p>Sunday</p>
